@@ -1,6 +1,6 @@
 require 'problem_1'
 
-RSpec.describe Problem1, '#solve' do
+RSpec.describe Problem1 do
   context 'with naive solution' do
     it 'should be true with [10, 15, 3, 7] and 17' do
       numbers = [10, 15, 3, 7]
